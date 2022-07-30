@@ -1,0 +1,92 @@
+*{
+    background:black;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    width:100%;
+    top:0;
+    left: 0;
+    color:white;
+}
+
+header nav{
+    padding: 1em;
+}
+
+.content__header--pc{
+    display:none;
+}
+
+img{
+    width:62.50px;
+    height:50px;
+    object-fit: contain;
+}
+
+.content__header--m{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content__header--m--ul{
+    list-style: none;
+    padding: 0;
+}
+
+.faviconsheader{
+    color: white;
+    font-size: 2em;
+}
+
+.content__header--m--ul i li a {
+    display:none;
+}
+
+[atri="user"],[atri="shop"],[atri="download"]{
+    font-size: 50px;
+    padding: 0.25em;
+}
+
+[atri="shop"]{
+    object-fit: contain;
+    text-align: center;
+}
+
+[atri="shop"]:hover{
+    background: blue;
+    padding: 0.25em;
+    border-radius: 0.125em;
+    cursor: pointer;
+}
+
+[atri="user"]{
+    width: 62.50px;
+    object-fit: contain;
+    text-align: center;
+}
+
+[atri="user"]:hover{
+    background: blue;
+    padding: 0.25em;
+    border-radius: 0.125em;
+    cursor: pointer;
+}
+
+[atri="download"]{
+    width: 62.50px;
+    object-fit: contain;
+    text-align: center;
+}
+
+[atri="download"]:hover{
+    background: blue;
+    padding: 0.25em;
+    border-radius: 0.125em;
+    cursor: pointer;
+}

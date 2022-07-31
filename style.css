@@ -1,5 +1,6 @@
 *{
     background:black;
+    color:white;
 }
 
 body{
@@ -23,7 +24,7 @@ header nav{
     display:none;
 }
 
-img{
+.SMobile{
     width:62.50px;
     height:50px;
     object-fit: contain;
@@ -33,7 +34,7 @@ img{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1em solid blue;
+    border-bottom: 0.5em solid blue;
 }
 .content__header--m--ul{
     list-style: none;
@@ -41,7 +42,6 @@ img{
 }
 
 .faviconsheader{
-    color: white;
     font-size: 2em;
 }
 
@@ -90,4 +90,21 @@ img{
     padding: 0.25em;
     border-radius: 0.125em;
     cursor: pointer;
+}
+
+main{
+    margin-top: 10em;
+    padding: 1.5em;
+}
+
+.srilogo{
+    width: 100%;
+    height: 10em;
+    margin:auto;
+}
+
+main section div p{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Average', serif;
 }
